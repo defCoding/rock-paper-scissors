@@ -12,7 +12,8 @@
   margin: auto;
 }
 
-#container > * { border: 1px solid black;
+#container > * {
+  border: 1px solid black;
   text-align: center;
 }
 
@@ -20,6 +21,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.button:hover {
+  cursor: pointer;
+  box-shadow: 0 0 5px 4px #DFDFDF;
 }
 
 #reset {
@@ -71,5 +77,10 @@ img {
 
 #display-title {
   font-size: 25px;
+  font-weight: bold;
+}
+
+#game-result {
+  font-size: 36px;
   font-weight: bold;
 }
