@@ -2,9 +2,40 @@
   <head>
     <title>Rock, Paper, Scissors</title>
     <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./main.css" />
   </head>
   <body>
-    <script src="app.js">
+    <div id="container">
+      <div class="scoreboard">
+        <div class="title"><p>Player Score</p></div>
+        <p id="player-score">0</p>
+      </div>
+      <div class="scoreboard">
+        <div class="title"><p>CPU Score</p></div>
+        <p id="cpu-score">0</p>
+      </div>
+      <div id="reset">
+        <p>RESET</p>
+      </div>
+      <div id="display">
+        <div class="title" id="display-title">
+          <p>Round 0</p>
+        </div>
+        <p>Choose Rock, Paper, or Scissors</p>
+        <p id="game-result"></p>
+        <p id="game-message"></p>
+      </div>
+      <div class="option" id="Rock">
+        <img src="https://i.pinimg.com/originals/da/1d/f2/da1df2577392fa9312f61a7f91b27a03.png" alt="rock" />
+      </div>
+      <div class="option" id="Paper">
+        <img src="https://i.pinimg.com/originals/b9/ec/a8/b9eca8946cbcdaf2500a265e214744f5.png" alt="paper" />
+      </div>
+      <div class="option" id="Scissors">
+        <img src="https://lh3.googleusercontent.com/proxy/8tmmWjOMX8Bt7jxhtwGm_z6cprvdABGiEzjEkRruqPU0ClK47ow9EOIFKRQb5ns9IrYOhbT0RU5XNgDOCVzrqG3_BYtOWyt9hQZRlJnbIWxWvsrSquq0pNM3Q1kj4w" alt="scissors" />
+      </div>
+    </div>
+    <script src="./app.js">
     </script>
   </body>
 </html>
